@@ -10,8 +10,8 @@ end
 
 def turtle_traits(turtles)
   turtles.each do |index|
-    turtle_traits = []
-    turtle_traits << index[:traits]
+    turtles_traits = []
+    turtles_traits << index[:traits]
   end
-  turtle_traits
+  turtles_traits
 end
